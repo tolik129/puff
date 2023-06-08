@@ -1,0 +1,50 @@
+.oplata_page{
+	padding-top: 40px;
+	padding-bottom: 48px;
+	h2{
+		color: #307FE2;
+		font-family: 'Unbounded';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 22px;
+		margin-bottom: 40px;
+	}
+	h4{
+		color: #307FE2;
+		font-family: 'Raleway';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 140%;
+	}
+	ul{
+		margin-left: 15;
+		margin-bottom: 16px;
+		li{
+			color: #140300;
+			font-family: 'Raleway';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 150%;
+		}
+	}
+	table{
+		width: 453px;
+		tr{
+			border: 1px solid #307FE2;
+			td{
+               border: 1px solid #307FE2;
+               color: #000000;
+               font-family: 'Raleway';
+				font-style: normal;
+				font-weight: 500;
+				font-size: 12px;
+				line-height: 150%;
+				padding: 8px 42px;
+				text-align: center;
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+.about_page{
+	padding-top: 40px;
+	padding-bottom: 48px;
+	h4{
+		color: #307FE2;
+		font-family: 'Unbounded';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 140%;
+		margin-bottom: 24px;
+	}
+	p{
+		color: #140300;
+		font-family: 'Raleway';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 160%;
+		display: inline-block;
+		margin-bottom: 24px;
+
+	}
+	.about_slider{
+		margin-top: 48px;
+		.slick-prev, .slick-next{
+			    width: 17px;
+           height: 29px;
+		}
+		.slick-prev{
+			    left: -28px;
+    			background: url('../img/prew.png');
+		}
+		.slick-next {
+		    right: 43px;
+		    background: url('../img/next.png');
+		}
+	}
+}

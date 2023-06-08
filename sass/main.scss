@@ -1,0 +1,278 @@
+@import "fonts";
+@import "libs";
+@import "vars";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	
+}
+.post, .page {
+    margin: 0 0 0!important;
+}
+p{
+	font-weight: 300;
+	color: #111;
+}
+body{
+font-family: 'Unbounded', cursive;
+	font-size: 18px;
+	
+}
+
+header{
+	padding-top: 22px;
+	padding-bottom: 22px;
+	.wraper{
+		display: flex;
+		align-items: center;
+        justify-content: space-between;
+		.item{
+			.logo{
+				margin-left: 20px;
+			}
+				.main-navigation{
+					ul {
+						    display: flex;
+						    align-items: center;
+						    justify-content: center;
+						    li{
+						    	list-style: none;
+					             padding-right: 15px;
+					             padding-left: 15px;
+					             a{
+									font-family: 'Unbounded';
+									font-style: normal;
+									font-weight: 400;
+									font-size: 12px;
+									line-height: 15px;
+									/* identical to box height */
+
+
+									/* Azure */
+
+									color: #307FE2;
+								}
+						    }
+					    	
+					}
+				} 
+				.search_panel{
+					display: flex;
+					    justify-content: end;
+					li{
+						list-style: none;
+			             padding-right: 15px;
+			             padding-left: 15px;
+						a{
+							font-family: 'Unbounded';
+							font-style: normal;
+							font-weight: 400;
+							font-size: 12px;
+							line-height: 15px;
+							color: #307FE2;
+
+						}
+					}
+				}
+		}
+	}
+
+
+	
+	
+
+}
+
+
+.block_with_text{
+	display: none;
+}
+
+
+
+.baner{
+	background: #307FE2;
+	padding-top: 113px;
+	padding-bottom: 114px;
+	h1{
+		font-family: 'Unbounded';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 28px;
+		line-height: 140%;
+		/* or 39px */
+		margin-bottom: 24px;
+
+		/* White */
+
+		color: #FFFFFF;
+	}
+	h4{
+
+		font-family: 'Raleway';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 140%;
+		/* or 20px */
+
+
+		/* White */
+
+		color: #FFFFFF;
+	}
+}
+
+
+
+.popular_item{
+	padding-top: 24px;
+	padding-bottom: 24px;
+	h3{
+		color: #307FE2;
+		font-family: 'Unbounded';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 20px;
+		margin-bottom: 24px;
+	}
+	a{
+		display: flex;
+		margin-top: 24px;
+		margin-bottom: 24px;
+		color: #140300;
+		font-family: 'Raleway';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 140%;
+		    justify-content: center;
+	}
+}
+
+
+.baner_two{
+	.wraper{
+		display: flex;
+		    align-items: center;
+        justify-content: space-around;
+		.item{
+			h2{
+				color: #FFFFFF;
+				font-family: 'Unbounded';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 32px;
+				line-height: 40px;
+				margin-bottom: 24px;
+                margin-top: 185px;
+			}
+			p{
+				color: #FFFFFF;
+				font-family: 'Raleway';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 16px;
+			}
+			a{
+				display: inline-block;
+				margin-top: 40px;
+				background: #FFFFFF;
+				padding: 12px 64px;
+				color: #307FE2;
+				font-family: 'Raleway';
+				font-style: normal;
+				font-weight: 500;
+				font-size: 14px;
+				line-height: 140%;
+				margin-bottom: 249px;
+			}
+		}
+		.item_ferst{
+			background: #307FE2;
+		    width: 100%;
+		    padding-left: 128px;
+		}
+		.item_second{
+			min-width: 721px;
+		}
+	}
+}
+
+
+
+
+
+footer{
+	background: #114492;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	.wraper{
+		display: flex;
+		    justify-content: space-between;
+		.item{
+			.menu{
+				margin-left: 0;
+				li{
+					padding-left: 0;
+					padding-bottom: 24px;
+					list-style: none;
+					a{
+						color: #FFFFFF;
+						font-family: 'Raleway';
+						font-style: normal;
+						font-weight: 400;
+						font-size: 14px;
+						line-height: 16px;
+					}
+				}
+			}
+			p{
+				color: #FFFFFF;
+				font-family: 'Raleway';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 140%;
+			}
+           h3{
+           	color: #FFFFFF;
+           	font-family: 'Unbounded';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 20px;
+			margin-bottom: 24px;
+           }
+           .contact{
+           	margin-left: 0;
+           	li{
+           		margin-bottom: 24px;
+           		a{
+           			font-family: 'Raleway';
+					font-style: normal;
+					font-weight: 400;
+					font-size: 14px;
+					line-height: 16px;
+           			color: #FFFFFF;
+           		}
+           	}
+           }
+		}
+	}
+}
+
+
+
+
+@import "news.scss"; // Всегда в конце
+@import "about.scss"; // Всегда в конце
+@import "politic.scss"; // Всегда в конце
+@import "oplata.scss"; // Всегда в конце
+@import "contact.scss"; // Всегда в конце
+@import "media"; // Всегда в конце

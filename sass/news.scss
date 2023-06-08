@@ -1,0 +1,107 @@
+.news_page{
+	padding-top: 24px;
+	h2{
+		text-align: center;
+		color: #307FE2;
+		font-family: 'Unbounded';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 36px;
+		line-height: 45px;
+		margin-top: 48px;
+		margin-bottom: 48px;
+	}
+	.wraper{
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+        gap: 32px;
+        margin-bottom: 24px;
+		.item{
+			    padding-left: 15px;
+            .title{
+				color: #307FE2;
+				font-family: 'Unbounded';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 20px;
+				margin-top: 16px;
+				margin-bottom: 8px;
+            }
+            .exc{
+				color: #140300;
+				font-family: 'Raleway';
+				font-style: normal;
+				font-weight: 500;
+				font-size: 16px;
+				line-height: 140%;
+            }
+		}
+	}
+}
+
+.interesting{
+	margin-top: 48px;
+	margin-bottom: 42px;
+	h2{
+		color: #307FE2;
+		font-family: 'Unbounded';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 20px;
+		margin-top: 24px;
+		margin-bottom: 24px;
+	}
+		
+		
+		.interest_slider{
+			.slick-list{
+				.slick-track{
+					.title{
+						color: #307FE2;
+						font-family: 'Unbounded';
+						font-style: normal;
+						font-weight: 400;
+						font-size: 16px;
+						line-height: 120%;
+						margin-top: 16px;
+						margin-bottom: 8px;
+						a{
+							color: #307FE2;
+							font-family: 'Unbounded';
+							font-style: normal;
+							font-weight: 400;
+							font-size: 16px;
+							line-height: 120%;
+						}
+					}
+					.exc{
+						color: #140300;
+						font-family: 'Raleway';
+						font-style: normal;
+						font-weight: 500;
+						font-size: 16px;
+						line-height: 140%;
+					}
+				}
+			}
+			
+		}
+			.slick-prev, .slick-next{
+				    width: 17px;
+	           height: 29px;
+	               top: -10%;
+			}
+			.slick-prev{
+				       right: 79px;
+	    			background: url('../img/prew.png');
+			}
+			.slick-next {
+			    right: 43px;
+			    background: url('../img/next.png');
+			}
+			
+			
+		
+}
