@@ -18,7 +18,7 @@
                     <h3><?php the_field( 'subscription', 'option' ); ?></h3>
                     <p><?php the_field( 'subscription_2', 'option' ); ?></p>
                 </div>
-                <div class="item">
+                <div class="item item_2">
                     <h3><?php the_field( 'info', 'option' ); ?></h3>
                     <?php
                         wp_nav_menu(
@@ -77,7 +77,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
   <script>
-      $('.product').slick({
+      $('.product_home').slick({
   dots: true,
   infinite: false,
   speed: 300,
@@ -173,5 +173,44 @@
 
 });
   </script>
+
+  <script>
+      $('.wc-block-grid__products').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: false,
+  autoplaySpeed: 2000,
+});
+  </script>
+
+  <script>
+   $(document).ready(function(){
+    $("#showHideContent").click(function () {
+        if ($("#content").is(":hidden")) {
+            $("#content").show("slow");
+        } else {
+            $("#content").hide("slow");
+        }
+        return false;
+    });
+});
+    
+
+</script>
+
+<script>
+    $(".content_toggle").click(function(){
+    $('.content_more').slideToggle(300, function(){
+        if ($(this).is(':hidden')) {
+            $('.content_toggle').html('показать');
+            $('.content_toggle').removeClass('open');
+        } else {
+            $('.content_toggle').html('закрыть');
+            $('.content_toggle').addClass('open');
+        }                           
+    });
+    return false;
+});
+</script>
 </body>
 </html>

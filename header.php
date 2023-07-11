@@ -15,6 +15,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#ff0000">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,6 +30,11 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	
+<a class="content_toggle" href="#">Показать</a>
+ 
+<div class="content_more" style="display: none;">
+	<p>При заказе от 500 лей доставка по Молдове бесплатно. </p>
+</div>
 
 	<header id="masthead" class="site-header">
 		<div class="container-fluid">
@@ -56,8 +62,12 @@
 					<div class="item">
 						  <ul class="search_panel">
 						   	<li><a href="">Поиск</a></li>
-						   		<li><a href="">Корзина</a></li>
-						   			<li><a href="">Ro</a></li>
+						   		
+						   			<li> <?php
+							              if ( function_exists('pll_the_languages') ) {
+							                pll_the_languages(array('dropdown'=>1, 'show_flags'=>1, 'show_names'=>0));
+							              }
+							            ?></li>
 						   </ul>
 					</div>
 				</div>
